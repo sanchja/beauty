@@ -11,37 +11,103 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/slidemenu.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/hero.css">
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
         <div class="container">
+            <nav class="desktopNav">
+                <ul>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="beauty_tips.html">Beauty Tips</a></li>
+                    <li><a href="beauty_supplies.html">Beauty Supplies</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
             <div id="sidebar">
                 <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Beauty Tips</a></li>
-                <li><a href="#">Beauty Supplies</a></li>
-                <li><a href="#">Contact</a></li>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="beauty_tips.html">Beauty Tips</a></li>
+                    <li><a href="beauty_supplies.html">Beauty Supplies</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
             <div class="main-content">
                 <div class="swipe-area"></div>
                 <a href="#" data-toggle=".container" id="sidebar-toggle"> 
-                <span class="bar"></span> 
-                <span class="bar"></span> 
-                <span class="bar"></span> 
+                    <span class="bar"></span> 
+                    <span class="bar"></span> 
+                    <span class="bar"></span> 
                 </a>
-            <div class="content">
-                <article>
-                    <p>Burgundy 2018 will be at least partially remembered both inside and outside the region for the devastating frosts that struck many vineyards, 
-                        including premier cru and grand cru sites, in late April of that year. Few could remember frosts so bad. ‘I’ve never heard of Echezeaux freezing,’ Emmanuel Rouget told William Kelley, 
-                        whose full Burgundy 2016 vintage report will be published online for Decanter Premium members soon.</p>
-                </article>
-                <footer>&copy; 2018 - Beauty Spa | <a href="#">Terms of Service</a></footer>
             </div>
-            
-        </div>
+            <div class="content">
+                <h3 class="alignCenter">Beauty Spa</h3>
+                <div class="hero">
+                    <div class="wrapper">
+                        <input checked type=radio name="slider" id="slide1" />
+                        <input type=radio name="slider" id="slide2" />
+                        <input type=radio name="slider" id="slide3" />
+                        <input type=radio name="slider" id="slide4" />
+                        <input type=radio name="slider" id="slide5" />
+                        <div class="slider-wrapper">
+                        <div class=inner>
+                            <article>
+                            <!-- <div class="info top-left">
+                                <h3>Malacca</h3></div> -->
+                            <img src="img/main.jpeg"/>
+                            </article>
+                    
+                            <article>
+                            <!-- <div class="info bottom-right">
+                                <h3>Cameron Highland</h3></div> -->
+                            <img src="img/floral.jpeg" />
+                            </article>
+                    
+                            <article>
+                            <!-- <div class="info bottom-left">
+                                <h3>New Delhi</h3></div> -->
+                            <img src="img/manicure.jpeg" />
+                            </article>
+                    
+                            <article>
+                            <!-- <div class="info top-right">
+                                <h3>Ladakh</h3></div> -->
+                            <img src="img/massage.jpeg" />
+                            </article>
+                    
+                            <article>
+                            <!-- <div class="info bottom-left">
+                                <h3>Nubra Valley</h3></div> -->
+                            <img src="img/painting_fingernails.jpeg" />
+                            </article>
+                        </div>
+                        <!-- .inner -->
+                        </div>
+                        <!-- .slider-wrapper -->
+                    
+                        <div class="slider-prev-next-control">
+                        <label for=slide1></label>
+                        <label for=slide2></label>
+                        <label for=slide3></label>
+                        <label for=slide4></label>
+                        <label for=slide5></label>
+                        </div>
+                        <!-- .slider-prev-next-control -->
+                    
+                        <div class="slider-dot-control">
+                        <label for=slide1></label>
+                        <label for=slide2></label>
+                        <label for=slide3></label>
+                        <label for=slide4></label>
+                        <label for=slide5></label>
+                        </div>
+                    </div>
+            <footer class="alignCenter">&copy; 2018 - Beauty Spa | <a href="#">Terms of Service</a></footer>
+            </div>
+            </div>
     <script src="//code.jquery.com/jquery-latest.js"></script> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
-    <script src="js/slidemenu.js"></script>    
+    <script src="js/slidemenu.js"></script>
     </body>
 </html>

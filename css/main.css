@@ -1,0 +1,48 @@
+/* Global styles */
+
+* { margin:0px; padding: 0px; }
+body,
+html {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  font-family: helvetica;
+  font-weight: 100;
+}
+.alignCenter {
+  text-align: center;
+}
+nav {
+  background-color:#c446eb;
+  color: white;
+}
+.desktopNav li  {
+  display:inline-block;
+  width:150px; height:40px;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+}
+.desktopNav li:hover {
+  background-color: #cf9e34;
+}
+.desktopNav li a {
+  list-style-type: none;
+  text-decoration: none;
+  color:white;
+  line-height: 40px;
+}
+/********* Responsive Portrait mobile ***********/
+@media screen and (min-width: 320px) and (orientation: portrait ) {
+  .desktopNav {
+    display: none;
+  }
+}
+
+
+/********* Responsive Portrait mobile ***********/
+@media screen and (min-width: 1024px) {
+  .swipe-area, #sidebar, .main-content {
+    display:none;
+  }
+}
